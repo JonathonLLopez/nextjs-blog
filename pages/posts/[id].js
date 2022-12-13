@@ -28,6 +28,7 @@ export default function Post({ postData }) {
       <br />
       {postData.author}
       <br />
+      {/* eslint-disable-next-line react/no-danger */}
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
     </Layout>
   );
